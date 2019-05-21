@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="406dp"
+    android:layout_marginTop="87dp"
+    android:layout_marginBottom="47dp"
+    android:orientation="vertical"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/frameLayout"
+    app:layout_constraintVertical_bias="0.111"
+    tools:ignore="MissingConstraints"
+    tools:layout_editor_absoluteX="0dp"
+    tools:context="ru.nsu.bd.partysharing.features.profile.presentation.ProfileFragment">
+
+    <Button
+        android:id="@+id/profile_interests_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/title_interests"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/profile_events_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/title_events"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/profile_events_attend_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/title_event_attend"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/profile_events_manage_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/title_event_manage"
+        android:textSize="18sp" />
+
+</LinearLayout>

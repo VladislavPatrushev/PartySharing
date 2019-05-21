@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="ru.nsu.bd.partysharing.features.create.presentation.CreateEventFragment">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/eventTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="@string/about_event" />
+
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="148dp"
+                android:layout_height="119dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="36dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="36dp"
+                android:background="#1111"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/baseline_add_a_photo_24" />
+
+
+            <EditText
+                android:id="@+id/event_tittle"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="8dp"
+                android:hint="@string/title"
+                android:inputType="text"
+                android:maxLines="1" />
+
+            <EditText
+                android:id="@+id/event_city"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:hint="@string/city"
+                android:inputType="text"
+                android:maxLines="1" />
+
+            <EditText
+                android:id="@+id/event_address"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:hint="@string/address"
+                android:inputType="text"
+                android:maxLines="1" />
+
+            <EditText
+                android:id="@+id/event_desc"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:hint="@string/description"
+                android:inputType="text"
+                android:maxLines="1" />
+
+            <TextView
+                android:id="@+id/event_date"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp" />
+
+            <Button
+                android:id="@+id/pick_date_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/choose_date" />
+
+            <Button
+                android:id="@+id/create_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="60dp"
+                android:text="Create " />
+
+        </LinearLayout>
+</ScrollView>
+
